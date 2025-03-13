@@ -46,7 +46,7 @@ if __name__ == "__main__":
         hovermode='closest'
     )
     # Salvar e abrir gráfico
-resultados_path = "resultados"
+resultados_path = "../resultados"
 if not os.path.exists(resultados_path):
     os.makedirs(resultados_path)
 
