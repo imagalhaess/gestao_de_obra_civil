@@ -22,21 +22,22 @@ git clone <URL_DO_SEU_REPOSITÓRIO>
 cd projeto_gantt
 ```
 
-## Crie e ativa a virtualenv
+## Crie e ative a virtualenv
 
 python -m venv venv
 .\venv\Scripts\activate # Windows
 source venv/bin/activate # Linux/Mac
 
-## Instale dependências
+## Instale as dependências
 
 pip install -r requirements.txt
 
-## Execute o projeto
+## Execute o projeto 😊
 
 python src/main.py
 
 📌 O gráfico HTML será gerado em src/resultados/cronograma_gantt_duracao.html e aberto automaticamente no navegador.
 
-📢 Autoria
+## 📢 Autoria
+
 Projeto desenvolvido por Isabela Magalhães.
